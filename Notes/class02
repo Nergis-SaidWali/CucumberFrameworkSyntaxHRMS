@@ -1,0 +1,23 @@
+BDD - It allows us to write scenarios in gherkin language
+
+Feature - User story
+Scenario - Test case - every test case will be considered as scenario in BDD
+Given - pre-requisite/pre-condition
+When - perform some actions
+Then - expected output (verification/validation)
+And - supporting tag
+
+Step definition - Cucumber provides you the snippet of step definition
+In step definition, we write the code to perform actions which has been written in the statement
+
+To execute all the feature files from one class, we need runner class.
+
+To keep everything organised we need framework -
+
+In framework, we need 2 separate branches for
+Java - In Java we write all java classes
+Non-Java - In non-Java, we write non-java part such as features, files etc.
+
+Steps Package - for all step definitions
+Runners package - for all runner classes
+config package - for all config files

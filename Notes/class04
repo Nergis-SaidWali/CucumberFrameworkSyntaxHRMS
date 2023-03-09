@@ -1,0 +1,10 @@
+runner class - cucumber options in runner class
+features - to run the feature file we provide a path to its repository
+glue - the path of step definitions package
+dryRun - if we set it to true, it stops actual execution and scans all the steps quickly and provide us
+missing step definitions
+monochrome - to remove irrelevant information from the console
+plugin - pretty - to print the steps in the console to increase readability
+tags - to group the scenario fro specific type of execution
+
+//order doesn't matter but it is always good to provide the feature first and glue next
